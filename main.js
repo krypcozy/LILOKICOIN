@@ -5,7 +5,7 @@ let particles = [];
 let W, H;
 
 const mascotImg = new Image();
-mascotImg.src = 'assets/mascot.png';
+mascotImg.src = 'mascot.png';
 let mascotLoaded = false;
 mascotImg.onload = () => { mascotLoaded = true; };
 
@@ -181,7 +181,7 @@ if (tokenBars) barObserver.observe(tokenBars);
 // ── WHITEPAPER DOWNLOAD ──
 function downloadWhitepaper() {
   const a = document.createElement('a');
-  a.href = 'assets/liloki_whitepaper.pdf';
+  a.href = 'liloki_whitepaper.pdf';
   a.download = 'LILOKI_Whitepaper.pdf';
   a.click();
 }
